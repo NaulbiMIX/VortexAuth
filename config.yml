@@ -1,0 +1,58 @@
+# hAuth by TheHelpix
+# MYSQL
+mysql:
+  host: 212.109.197.44
+  port: 3306
+  database: vortexauth
+  user: vortexcreative
+  password: Sayhee15
+# права на котором плагин будет ебать мозги игроку
+permission: "vv.f"
+
+# VK API
+vk:
+  token: "daf7b5f36e79c2eece0a361ac4457e960e57ad042820189ebd128714faeacda84ed95fddfd0ea8a4c6b4e"
+  lengt: 6 # длина кода
+  server: "mGrief"
+  not_pass_chat: 2000000085 # chat_id беседы состава
+  player: "&6[hAuth] &4Доступно только для Консоли!"
+  login_chat: 2000000085 # chat_id беседы BIGLOG'a там где будут логи всего
+  debug: true
+
+site:
+  text: "Привет, это hAuth!"
+
+admins:
+  - 1578917704
+
+texts:
+  title: " &c⚠ &e&lhAuth &c⚠"
+  title2: " &3Напиши в чат код с &9ВК&3."
+  success: "&6[hAuth] &2Код правильный."
+  no_pass: "&6[hAuth] &4Не правильный код!"
+  kick: "&cПопытка входа.\nИли же попросите &3[Разработчика] &cдобавить вас в протект."
+
+# hStream
+hstream:
+  perm: "hstream.add"
+  not_perm: "&6[hStream] &cДоступно от &c&l[YouTube]&c!."
+  help: "&6[hStream] &3Использование: &e/hstream add ссылка&e."
+  console: "&6[hStream] &4Доступно для игроков!"
+  sended: "&6[hStream] &2Ваш стрим успешно отправлен."
+
+# hBroadcast
+cbc:
+  presedent: "презедент" #ник презездента
+  broadcast: "&6[hBroadcast] &2&l"
+
+# сообщения
+messages:
+  console:
+    isPlayer: "&6[hAuth] &5Игрокам нельзя использовать!"
+    help: "&6[hAuth] &2Использование:\n &c-/hprotect add ник &9idvk&c.\n -&c/hprotect remove ник."
+  cmd: "&6[hBroadcast] &2Использование: &9/cbc объявление."
+  not_perm: "&6[hBroadcast] &4Доступно для &6&lПрезидента."
+  add:
+    cmd: "&6[hAuth] &cИспользование: &2/hprotect add ник id"
+  remove:
+    cmd: "&6[hAuth] &cИспользование: &2/hprotect remove ник"

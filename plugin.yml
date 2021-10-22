@@ -1,0 +1,23 @@
+name: hAuth
+author: TheHelpix
+main: ru.TheHelpix.protect.Main
+version: 3.0
+description: Admin Auth
+
+commands:
+  cbc:
+    description: City Broadcast
+  hstream:
+    description: streams
+    aliases: [helpixstream]
+  youtube:
+    description: channel
+    aliases: [yt, hyt]
+  hprotect:
+    description: hProtect
+    aliases: [helpixprotect]
+  apicmd:
+    description: api
+  vk_debug:
+    description: debugger
+    aliases: [debug]
